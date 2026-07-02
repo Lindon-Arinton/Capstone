@@ -11,7 +11,7 @@ import {
 } from "react-native";
 
 // ── Modern Color Palette ────────────────────────────────
-const PRIMARY = "#2563EB";
+const PRIMARY = "#B22222";
 const PRIMARY_DARK = "#1D4ED8";
 const ACCENT = "#8B5CF6";
 const SUCCESS = "#10B981";
