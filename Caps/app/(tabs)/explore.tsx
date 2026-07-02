@@ -12,24 +12,15 @@ import {
 
 // ── Modern Color Palette ────────────────────────────────
 const PRIMARY = "#B22222";
-const PRIMARY_DARK = "#1D4ED8";
-const ACCENT = "#8B5CF6";
-const SUCCESS = "#10B981";
 const WARNING = "#F59E0B";
 const WHITE = "#FFFFFF";
 const BG = "#F9FAFB";
 const TEXT_DARK = "#111827";
 const TEXT_GRAY = "#6B7280";
 const TEXT_LIGHT = "#9CA3AF";
-const CARD_BG = "#FFFFFF";
 const BORDER = "#E5E7EB";
 const DARK_RED = "#7B0D0D";
 const ACCENT_RED = "#B22222";
-
-// ── Tiny wave SVG-ish drawn with Views ──────────────────
-const MiniWave = ({ color }: { color: string }) => (
-  <View style={[styles.waveContainer, { borderTopColor: color + "55" }]} />
-);
 
 // ── Stat Card ───────────────────────────────────────────
 const StatCard = ({
